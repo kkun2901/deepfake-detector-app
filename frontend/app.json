@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "deepfake-app",
+    "slug": "deepfake-app",
+    "version": "1.0.0",
+    "sdkVersion": "50.0.0",
+    "platforms": ["android"],
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "permissions": ["CAMERA","RECORD_AUDIO","READ_MEDIA_VIDEO","READ_MEDIA_IMAGES","READ_MEDIA_AUDIO","WRITE_EXTERNAL_STORAGE"],  
+      "package": "com.yourcompany.deepfakeapp"  
+    }
+  }
+}
